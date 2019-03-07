@@ -1,16 +1,13 @@
-/*Template Name: Think Digital
-Description: Amplify Digital - Think Digital Blog
+/*Template Name: CSS Filter Generator
+Description: CSS Filter Generator
 Author: Emmanuel Chilaka
 Author URL: github.com/echilaka1
 Version: 1.0.0
-Website: thinkdigital.amplify.ng
 */
 
 /* ==========================================================================
    01. GENERAL & BASIC STYLES
 ========================================================================== */
-
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 @font-face {
     font-family: 'GoogleSans';
@@ -29,7 +26,7 @@ html {
 }
 
 body {
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'GoogleSans', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	background-color: white;
 }
@@ -49,7 +46,6 @@ a {
 }
 
 .nav-head {
-  font-family: GoogleSans;
   font-size:13px;
   vertical-align: middle;
   color:#666;
@@ -100,7 +96,6 @@ a {
 
 
 .bg-text h1 {
-  font-family: 'GoogleSans';
 
   font-size: 40px;
 
@@ -124,7 +119,6 @@ a {
 }
 
 .bg-text p {
-  font-family: 'GoogleSans';
 
   font-size: 18px;
 
@@ -148,7 +142,6 @@ a {
 }
 
 .bg-text a {
-  font-family: 'GoogleSans';
 
   font-size: 13px;
   border: 1px solid white;
@@ -163,10 +156,10 @@ a {
 .conversion-bg {
   padding-top:30px;
   padding-bottom:30px;
+  background-color:#F9F9F9;
 }
 
 .conversion-bg h1 {
-  font-family: 'GoogleSans';
 
   font-size: 40px;
 
@@ -190,7 +183,6 @@ a {
 }
 
 .conversion-bg p {
-  font-family: 'GoogleSans';
 
   font-size: 15px;
 
@@ -214,12 +206,11 @@ a {
 }
 
 .conversion-bg input {
-  width: 65%;
+  width: 35%;
   margin: 0;
   border: 1px solid #c2d1d9;
-  font-family:GoogleSans;
   font-size:14px;
-  height: 60px;
+  height: 40px;
   border-radius: 7px;
   padding: 20px;
   -webkit-box-sizing: border-box;
@@ -227,12 +218,11 @@ a {
 }
 
 .conversion-bg button {
-  width: 35%;
+  width: 40%;
   margin: 0;
   border: none;
-  font-family:GoogleSans;
   font-size:14px;
-  height: 40px;
+  height: 45px;
   color: white;
   text-transform: uppercase;
   background: #dd1064;
@@ -243,11 +233,137 @@ a {
 .pixel {
   display: inline-block;
   background-color: #000;
-  width: 400px;
+  min-width: 400px;
   height: 300px;
   border-radius:5px;
 }
 
-.filterDetail {
-  font-family: GoogleSans;
+@media only screen and (max-width:1024px) {
+  .pixel {
+    min-width: 325px;
+  }
 }
+
+.instruction-bg {
+  padding-top:40px;
+  padding-bottom: 40px;
+}
+
+.instruction-bg p {
+
+  font-size: 15px;
+
+  font-weight: normal;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  line-height: 1.64;
+
+  letter-spacing: normal;
+
+  color:#666;
+}
+
+@media only screen and (max-width:1024px) {
+  .instruction-bg p {
+    font-size:12px;
+  }
+}
+
+.instruct-box {
+  max-width:340px;
+  height:auto;
+  border:1px solid #DDDDDD;
+}
+
+.instruct-image {
+  max-width: 340px;
+  height:200px;
+  overflow: hidden;
+  position:relative;
+}
+.instruct-image img {
+     width: 100%;
+     object-fit: contain;
+}
+
+.instruct-text {
+  padding:20px;
+}
+
+.instruct-text h1 {
+
+  font-size: 25px;
+
+  font-weight: normal;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  line-height: normal;
+
+  letter-spacing: -1.3px;
+
+  color: #030f2d;
+}
+
+@media only screen and (max-width:1024px) {
+  .instruct-text h1 {
+    font-size:18px;
+  }
+}
+
+ .instruct-text p {
+
+  font-size: 15px;
+
+  font-weight: normal;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  line-height: 1.64;
+
+  letter-spacing: normal;
+
+  color:#666;
+}
+
+@media only screen and (max-width:1024px) {
+   .instruct-text p {
+    font-size:12px;
+  }
+}
+
+.last-section {
+  padding:40px;
+}
+
+.last-section h1 {
+  font-size: 15px;
+
+  font-weight: normal;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  line-height: 1.64;
+
+  letter-spacing: normal;
+
+  color:#666;
+}
+
+.last-section h2 a {
+  color:#666;
+}
+
+.last-section h2 a:hover {
+  color:#030f2d;
+}
+

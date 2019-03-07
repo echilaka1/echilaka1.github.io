@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Easy Color converter to css3 filter</title>
+  <title>CSS Filter Generator</title>
 
   <!-- Mobile Specific Metas -->
   <meta charset="utf-8">
@@ -22,12 +22,9 @@
    <div class="container">
      <div class="row">
        <div class="col-md-9">
-         <p><i class="fa fa-github gtb"></i>&nbsp; View On Github</p>
-       </div>
-       <div class="col-md-3">
          <p>Please share &nbsp; 
               <a href="" target="_blank"><span class="square ln"><i class="fa fa-linkedin"></i></span></a>
-              <a href="" target="_blank"><span class="square fb"><i class="fa fa-facebook"></i></span></a>
+              <a href="http://twitter.com/share?text=@echilaka1 CSS Filter Generator &url=http://echilaka1.github.io " target="_blank"><span class="square fb"><i class="fa fa-facebook"></i></span></a>
               <a href="" target="_blank"><span class="square tw"><i class="fa fa-twitter"></i></span></a>
           </p>
        </div>
@@ -39,7 +36,7 @@
    <div class="container">
      <div class="row">
        <div class="col-md-12 bg-text text-center">
-         <h1>Quick HEX Color Conversion, to CSS 3 Filter Color</h1>
+         <h1>Quick CSS Filter Generator Using HEX</h1>
           <p>EASY. ACCESSIBLE.</p><br>
           <a href="#instruct">Instructions</a>
        </div>
@@ -57,7 +54,7 @@
        </div>
      </div><br>
      <div class="row">
-      <div class="col-sm-12 col-md-10 offset-md-1">
+      <div class="col-sm-12 col-md-11 offset-md-1">
        <div class="row">
          <div class="col-md-6">
            <p>Real pixel, color applied through CSS background-color:</p>
@@ -71,18 +68,134 @@
          </div>
        </div>
       </div>
-    </div><br>
+    </div>
+   </div>
+ </section>
+
+ <section class="instruction-bg">
+   <div class="container">
+     <div class="row" >
+       <div class="col-sm-12 col-md-10 offset-md-1">
+        <p>Instructions: From hex code to css 3 filter and its application in SVG </p>
+       </div>
+     </div>
      <div class="row" id="instruct">
-       <div class="col-sm-12 col-md-8 offset-md-2 text-justify">
-        <p>The goal was to be able to create custom style sheets that allow for the coloring of SVG icons</p>
-        <p>For this code to work well the starting color needs to be black. If your SVG icon set isn't black you can prepend "brightness(0) saturate(100%)" to your filter property which will first turn the icon set to black.</p>
-        <p>For as long as I worked on adding a visual part of this solution from multiple resources I found some had spent far longer to create this already completed solution. Only slightly modified to focus on HEX colors. Credit goes to MultiplyByZer0 for their post <a href="https://stackoverflow.com/questions/42966641/how-to-transform-black-into-any-given-color-using-only-css-filters/43960991#43960991" target="_blank">StackOverFlow</a> and Barrett Sonntag <a href="https://codepen.io/sosuke/pen/Pjoqqp" target="_blank">Codepen</a> </p>
+      <div class="col-sm-12 col-md-10 offset-md-1">
+       <div class="row">
+         <div class="col-md-4">
+           <div class="instruct-box">
+             <div class="instruct-image">
+               <img src="assets/img/icon.png" alt="Filter" class="img-fluid"/>
+             </div>
+             <div class="instruct-text">
+               <h1>Step 1: Get SVG</h1>
+               <p>Create or download SVG image</p>
+             </div>
+           </div>
+         </div>
+         <div class="col-md-4">
+           <div class="instruct-box">
+            <div class="instruct-image">
+             <img src="assets/img/code.png" alt="Filter" class="img-fluid"/>
+            </div>
+            <div class="instruct-text">
+             <h1>Step 2: Get SVG Code</h1>
+             <p>Copy the SVG code from the text document created or downloaded and add to your text editor</p>
+            </div>
+           </div>
+         </div>
+         <div class="col-md-4">
+           <div class="instruct-box">
+            <div class="instruct-image">
+             <img src="assets/img/class.png" alt="Filter" class="img-fluid"/>
+            </div>
+             <div class="instruct-text">
+               <h1>Step 3: Set ID or Class</h1>
+               <p>Give the SVG element an ID or Class</p>
+             </div>
+           </div>
+         </div>
+       </div><br>
+       <div class="row">
+         <div class="col-md-4">
+           <div class="instruct-box">
+            <div class="instruct-image">
+             <img src="assets/img/magenta.png" alt="Filter" class="img-fluid"/>
+            </div>
+            <div class="instruct-text">
+             <h1>Step 4: Get SVG Code</h1>
+             <p>Copy the SVG code from the text document created or downloaded and add to your text editor</p>
+            </div>
+           </div>
+         </div>
+         <div class="col-md-4">
+           <div class="instruct-box">
+             <div class="instruct-image">
+               <img src="assets/img/generate.png" alt="Filter" class="img-fluid"/>
+             </div>
+             <div class="instruct-text">
+               <h1>Step 5: Convert HEX Code To CSS Filter</h1>
+               <p>Use the CSS filter generator to generate a CSS filter from the HEX code</p>
+             </div>
+           </div>
+         </div>
+         <div class="col-md-4">
+           <div class="instruct-box">
+            <div class="instruct-image">
+             <img src="assets/img/convert.png" alt="Filter" class="img-fluid"/>
+            </div>
+             <div class="instruct-text">
+               <h1>Step 6: Copy The Generated CSS Filter Code</h1>
+               <p>After the css code has been generated, copy the generated code.</p>
+             </div>
+           </div>
+         </div>
+       </div><br>
+       <div class="row">
+         <div class="col-md-4">
+           <div class="instruct-box">
+            <div class="instruct-image">
+             <img src="assets/img/filter.png" alt="Filter" class="img-fluid"/>
+            </div>
+            <div class="instruct-text">
+             <h1>Step 7: Apply CSS Filter to SVG Class</h1>
+             <p>Copy the CSS filter code and apply to the class you gave to your SVG element</p>
+            </div>
+           </div>
+         </div>
+         <div class="col-md-4">
+           <div class="instruct-box">
+             <div class="instruct-image">
+               <img src="assets/img/newmagen.png" alt="Filter" class="img-fluid"/>
+             </div>
+             <div class="instruct-text">
+               <h1>Step 8: See Your SVG Changes</h1>
+               <p>After applying the CSS filter to the SVG class, the SVG element changes to the desired color you want</p>
+             </div>
+           </div>
+         </div>
+       </div>
+      </div>
+    </div><br>
+    <div class="row" >
+       <div class="col-sm-12 col-md-10 offset-md-1">
+        <p>CSS Filter is a powerful tool that developer & designers can use to achieve varying visual effects (sort of like Photoshop filters for the browser). The CSS filter property for me came as an alternative of changing SVG elements on hover and on selected or checked, without changing the SVG element </p>
+       </div>
+     </div>
+   </div>
+ </section>
+<hr>
+ <section class="last-section">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-12 text-center">
+         <h1>Follow Me</h1>
+         <h2><a href="https://www.facebook.com/echilaka1/"><i class="fa fa-facebook"></i></a>&nbsp; &nbsp; <a href="https://www.instagram.com/echilaka1/"><i class="fa fa-instagram"></i></a>&nbsp; &nbsp; <a href="https://www.linkedin.com/in/echilaka1/"><i class="fa fa-linkedin"></i></a>&nbsp; &nbsp; <a href="https://www.twitter.com/echilaka1/"><i class="fa fa-twitter"></i></a>&nbsp; &nbsp; <a href="https://www.github.com/echilaka1/"><i class="fa fa-github"></i></a> </h2>
        </div>
      </div>
    </div>
  </section>
 
-<!-- <script src="assets/js/jquery-2.2.3.min.js"></script> -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="assets/js/bootstrap.min.js"></script>
