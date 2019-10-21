@@ -16,6 +16,37 @@ body {
     margin-top: 150px;
 }
 
+.about p {
+  color: white;
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 50em;
+  animation: type 4s steps(60, end); 
+}
+
+.about p:nth-child(2){
+    animation: type2 8s steps(60, end);
+  }
+
+  .about p span{
+    animation: blink 1s infinite;
+  }
+
+@keyframes type{ 
+    from { width: 0; } 
+  } 
+  
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  
+  @keyframes blink{
+    to{opacity: .0;}
+  }
+
 @media screen and (max-width: 768px) {
     body {
       margin: 2rem 2rem;
