@@ -4,7 +4,7 @@
 body {
   font-family: 'Press Start 2P', sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: black;
+  background-color: #111011;
   color:white;
   padding: 0 2rem;
   margin: 0 2rem;
@@ -14,4 +14,15 @@ body {
     max-width: 980px;
     margin: 0 auto;
     margin-top: 150px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+      margin: 2rem 2rem;
+      padding: 0;
+    }
+
+    #nescss > .container {
+        margin-top: 50px;
+    }
 }
