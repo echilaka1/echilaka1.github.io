@@ -18,7 +18,7 @@ body {
 
 .about p {
   color: white;
-  font-size: 15px;
+  font-size: 14px;
   white-space: nowrap;
   overflow: hidden;
   width: 50em;
@@ -29,9 +29,9 @@ body {
     animation: type2 8s steps(60, end);
   }
 
-  .about p span{
+.about p span{
     animation: blink 1s infinite;
-  }
+}
 
 @keyframes type{ 
     from { width: 0; } 
