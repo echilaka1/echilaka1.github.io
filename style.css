@@ -10,13 +10,38 @@ body {
   margin: 0 2rem;
 }
 
+a {
+    text-decoration: none;
+    color:lime;
+}
+
+a:hover {
+    color:lime;
+}
+
+.nes-container {
+    border-color:white !important;
+}
+
 #nescss > .container {
     max-width: 980px;
     margin: 0 auto;
     margin-top: 150px;
 }
 
-.about p {
+.about {
+    max-width:617px;
+}
+
+.about .content {
+    width:100%;
+}
+
+.about h1 {
+    font-size:25px;
+}
+
+.about .content p {
   color: white;
   font-size: 14px;
   white-space: nowrap;
@@ -25,27 +50,28 @@ body {
   animation: type 4s steps(60, end); 
 }
 
-.about p:nth-child(2){
+.about .content p:nth-child(2){
     animation: type2 8s steps(60, end);
   }
 
-.about p span{
+.about .content p span{
     animation: blink 1s infinite;
+    color:lime;
 }
 
 @keyframes type{ 
     from { width: 0; } 
-  } 
+} 
   
-  @keyframes type2{
+@keyframes type2{
     0%{width: 0;}
     50%{width: 0;}
     100%{ width: 100; } 
-  } 
+} 
   
-  @keyframes blink{
+@keyframes blink{
     to{opacity: .0;}
-  }
+}
 
 @media screen and (max-width: 768px) {
     body {
