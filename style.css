@@ -29,16 +29,12 @@ a:hover {
     margin-top: 150px;
 }
 
-.about {
-    max-width:617px;
+.about h1 {
+    font-size:25px;
 }
 
 .about .content {
-    width:100%;
-}
-
-.about h1 {
-    font-size:25px;
+    max-width:617px;
 }
 
 .about .content p {
