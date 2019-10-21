@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: black;
+  color:white;
+  padding: 0 2rem;
+  margin: 0 2rem;
+}
+
+#nescss > .container {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
