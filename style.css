@@ -77,7 +77,7 @@ footer .nes-container .container-nav .nav-brand h2 {
 
 footer .nes-container .container-nav .social-buttons .share {
     text-align:center;
-    margin-top:5px;
+    /* margin-top:5px; */
 }
 
 @media screen and (max-width: 768px) {
