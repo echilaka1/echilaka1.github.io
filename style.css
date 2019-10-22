@@ -91,13 +91,17 @@ footer .nes-container .container-nav .social-button {
     margin-left: auto;
 }
 
+.social-buttons p {
+    font-size:12px;
+}
+
 .social-buttons .share {
     text-align:center;
     margin-top:5px;
 }
 
-.social-buttons p {
-    font-size:12px;
+.social-buttons a {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -108,5 +112,13 @@ footer .nes-container .container-nav .social-button {
 
     #nescss > .container {
         margin-top: 50px;
+    }
+
+    footer .nes-container .container-nav {
+        display: block;
+    }
+
+    .social-buttons .share {
+        text-align:left;
     }
 }
