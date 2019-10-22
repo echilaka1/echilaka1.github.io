@@ -55,29 +55,29 @@ footer .nes-container .container-nav .nav-brand {
     margin-right: auto;
 }
 
-.nav-brand h1 {
+footer .nes-container .container-nav .nav-brand h1 {
     font-size:10px;
 }
 
-.nav-brand p {
+footer .nes-container .container-nav .nav-brand p {
     font-size:18px;
 }
 
-footer .nes-container .container-nav .social-button {
+footer .nes-container .container-nav .nav-brand a {
+    text-decoration: none;
+}
+
+footer .nes-container .container-nav .social-buttons {
     margin-left: auto;
 }
 
-.social-buttons p {
-    font-size:12px;
+footer .nes-container .container-nav .nav-brand h2 {
+    font-size:8px;
 }
 
-.social-buttons .share {
+footer .nes-container .container-nav .social-buttons .share {
     text-align:center;
     margin-top:5px;
-}
-
-.social-buttons a {
-    text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -94,7 +94,7 @@ footer .nes-container .container-nav .social-button {
         display: block;
     }
 
-    .social-buttons .share {
+    footer .nes-container .container-nav .social-buttons .share {
         text-align:left;
     }
 }
