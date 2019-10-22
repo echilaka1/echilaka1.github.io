@@ -29,6 +29,37 @@ a:hover {
     margin-top: 150px;
 }
 
+footer .nes-container .container-nav {
+    display: flex;
+    margin: 0 auto;
+    align-items: baseline;
+  }
+  
+footer .nes-container .container-nav .nav-brand {
+    margin-right: auto;
+  }
+
+.nav-brand h1 {
+    font-size:10px;
+}
+
+.nav-brand p {
+    font-size:18px;
+}
+
+footer .nes-container .container-nav .social-button {
+    margin-left: auto;
+}
+
+.social-buttons .share {
+    text-align:center;
+    margin-top:5px;
+}
+
+.social-buttons p {
+    font-size:12px;
+}
+
 .about h1 {
     font-size:25px;
 }
