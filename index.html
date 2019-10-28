@@ -1,209 +1,74 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
-<head>
-  <title>CSS Filter Generator</title>
+  <head>
+    <title>Emmanuel Chilaka | Frontend Engineer</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A design thinking frontend engineer, minimalist, and music junkie. Emmanuel build meaningful frontend products for humans and businesses.">
+    <meta name="keywords" content="UI Developer, Frontend Developer, Frontend Engineer, Digital Strategist">
+    <meta name="author" content="Emmanuel Chilaka">
+    <meta property="og:url" content="https://echilaka1.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Emmanuel Chilaka">
+    <meta property="og:description" content="A design thinking frontend engineer, minimalist, and music junkie. Emmanuel build meaningful frontend products for humans and businesses.">
+    <meta property="og:image" content="https://echilaka1.github.io/ggjgjg.png">
+    <meta name="twitter:site" content="https://echilaka1.github.io/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="Emmanuel Chilaka">
+    <meta name="twitter:image" content="https://echilaka1.github.io/ggjgjg.png">
 
-  <!-- Mobile Specific Metas -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="convert color to css 3 filter">
-  <meta name="keywords" content="css3 filter, color converter">
-  <meta name="author" content="Emmanuel Chilaka, emmanuelchilaka779@gmail.com">
-  <meta name="reply-to" content="emmanuelchilaka779@gmail.com">
-  <meta name="owner" content="Emmanuel Chilaka">
-  <meta name="url" content="https://echilaka1.github.io">
-  <meta name="subject" content="CSS filter generator, from HEX code to CSS Filter">
-  <meta name="identifier-URL" content="https://echilaka1.github.io">
-  <meta name="topic" content="CSS Filter Generator | Use Method">
-  <meta name="coverage" content="Worldwide">
+    <link rel="shortcut icon" type="image/png" href="logo.jpg" />
+    <link href="https://unpkg.com/nes.css@2.2.1/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5GCSRBM');</script>
+        <!-- End Google Tag Manager -->
+  </head>
+  <body>
+      <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GCSRBM"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <!-- End Google Tag Manager (noscript) -->
+        <div id="nescss">
+            <div class="container">
+                <section class="nes-container">
+                    <div class="about">
+                        <h1>Emmanuel Chilaka</h1>
+                        <span class="content">
+                            <p>Frontend Engineer @ <a href="https://amplify.ng" target="_blank">Amplify Digital</a>,</p> 
+                            <p>who loves minimalist and functional design. :)<span>|</span></p>
+                        </span>
+                    </div>
+                </section>
+            </div>
+            <div class="container">
+                <footer>
+                    <div class="nes-container">
+                        <div class="container-nav">
+                            <div class="nav-brand">
+                                <h1>I talk and laugh</h1>
+                                <p>Let's connect</p>
+                                <h2><a href="mailto:emmanuelchilaka779@gmail.com" target="_blank">emmanuelchilaka779@gmail.com</a></h2>
+                            </div>
+                                    
+                            <div class="social-buttons">
+                                <div class="share">
+                                    <a href="https://twitter.com/echilaka1" target="_blank"><i class="nes-icon twitter"></i></a>
+                                    <a href="https://www.linkedin.com/in/echilaka1" target="_blank"><i class="nes-icon linkedin"></i></a>
+                                    <a href="https://github.com/echilaka1" target="_blank"><i class="nes-icon github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
 
-  <!-- Libs CSS -->
-  <!-- <link rel="shortcut icon" type="image/png" href="assets/img/icon5.png"> -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
- <script src="//platform-api.sharethis.com/js/sharethis.js#property=5c81401ed11c6a0011c48628&product=inline-share-buttons"></script>
-</head>
-<body>
- <section class="nav-head">
-   <div class="container">
-     <div class="row">
-       <div class="col-md-9">
-         <p>Please share &nbsp;<div class="sharethis-inline-share-buttons"></div>
-          </p>
-       </div>
-     </div>
-   </div>
- </section>
-
- <section class="hero-bg">
-   <div class="container">
-     <div class="row">
-       <div class="col-md-12 bg-text text-center">
-         <h1>Quick CSS Filter Generator Using HEX</h1>
-          <p>EASY. ACCESSIBLE.</p><br>
-          <a href="#instruct">Instructions</a>
-       </div>
-     </div>
-   </div>
- </section>
-
- <section class="conversion-bg">
-   <div class="container">
-     <div class="row">
-       <div class="col-md-12 text-center">
-         <h1>Target Hex Color</h1>
-         <input class="target" type="text" placeholder="target hex" value="#00a4d6"/><br><br>
-         <button class="execute">Compute Filters</button>
-       </div>
-     </div><br>
-     <div class="row">
-      <div class="col-sm-12 col-md-11 offset-md-1">
-       <div class="row">
-         <div class="col-md-6">
-           <p>Real pixel, color applied through CSS background-color:</p>
-           <div class="pixel realPixel"></div>
-         </div>
-         <div class="col-md-6">
-           <p>Filtered pixel, color applied through CSS filter:</p>
-           <div class="pixel filterPixel"></div>
-           <p class="filterDetail"></p>
-           <p class="lossDetail"></p>
-         </div>
-       </div>
-      </div>
-    </div>
-   </div>
- </section>
-
- <section class="instruction-bg">
-   <div class="container">
-     <div class="row" >
-       <div class="col-sm-12 col-md-10 offset-md-1">
-        <p>Instructions: From hex code to css 3 filter and its application in SVG </p>
-       </div>
-     </div>
-     <div class="row" id="instruct">
-      <div class="col-sm-12 col-md-10 offset-md-1">
-       <div class="row">
-         <div class="col-md-4">
-           <div class="instruct-box">
-             <div class="instruct-image">
-               <img src="https://docs.google.com/uc?id=10jPn2VitUwR_ax_4e6mIIvp4TsdqBxPj" alt="Filter" class="img-fluid"/>
-             </div>
-             <div class="instruct-text">
-               <h1>Step 1: Get SVG</h1>
-               <p>Create or download SVG image</p>
-             </div>
-           </div>
-         </div>
-         <div class="col-md-4">
-           <div class="instruct-box">
-            <div class="instruct-image">
-             <img src="https://docs.google.com/uc?id=1UYHaOXoKTFU8ccDCOidmP60tLN_zE33a" alt="Filter" class="img-fluid"/>
-            </div>
-            <div class="instruct-text">
-             <h1>Step 2: Get SVG Code</h1>
-             <p>Copy the SVG code from the text document created or downloaded and add to your text editor</p>
-            </div>
-           </div>
-         </div>
-         <div class="col-md-4">
-           <div class="instruct-box">
-            <div class="instruct-image">
-             <img src="https://docs.google.com/uc?id=1yDqfJaIh14TpfKy25LNS6Oc-SD6s2Fur" alt="Filter" class="img-fluid"/>
-            </div>
-             <div class="instruct-text">
-               <h1>Step 3: Set ID or Class</h1>
-               <p>Give the SVG element an ID or Class</p>
-             </div>
-           </div>
-         </div>
-       </div><br>
-       <div class="row">
-         <div class="col-md-4">
-           <div class="instruct-box">
-            <div class="instruct-image">
-             <img src="https://docs.google.com/uc?id=1pDMYmB9kKfDJpoouR6SJ1d3Qxdx-Q-m-" alt="Filter" class="img-fluid"/>
-            </div>
-            <div class="instruct-text">
-             <h1>Step 4: Get SVG Code</h1>
-             <p>Copy the SVG code from the text document created or downloaded and add to your text editor</p>
-            </div>
-           </div>
-         </div>
-         <div class="col-md-4">
-           <div class="instruct-box">
-             <div class="instruct-image">
-               <img src="https://docs.google.com/uc?id=1A2q_dtMl1pHLJtziNzTznyaIq7N4Vd1N" alt="Filter" class="img-fluid"/>
-             </div>
-             <div class="instruct-text">
-               <h1>Step 5: Convert HEX Code To CSS Filter</h1>
-               <p>Use the CSS filter generator to generate a CSS filter from the HEX code</p>
-             </div>
-           </div>
-         </div>
-         <div class="col-md-4">
-           <div class="instruct-box">
-            <div class="instruct-image">
-             <img src="https://docs.google.com/uc?id=1pIrbJcxkTaw_W6uRYmOU0e17r0Z-x_lo" alt="Filter" class="img-fluid"/>
-            </div>
-             <div class="instruct-text">
-               <h1>Step 6: Copy The Generated CSS Filter Code</h1>
-               <p>After the css code has been generated, copy the generated code.</p>
-             </div>
-           </div>
-         </div>
-       </div><br>
-       <div class="row">
-         <div class="col-md-4">
-           <div class="instruct-box">
-            <div class="instruct-image">
-             <img src="https://docs.google.com/uc?id=1Yw2wGvmGAKdISEtv33glfFXgiAiy1HGE" alt="Filter" class="img-fluid"/>
-            </div>
-            <div class="instruct-text">
-             <h1>Step 7: Apply CSS Filter to SVG Class</h1>
-             <p>Copy the CSS filter code and apply to the class you gave to your SVG element</p>
-            </div>
-           </div>
-         </div>
-         <div class="col-md-4">
-           <div class="instruct-box">
-             <div class="instruct-image">
-               <img src="https://docs.google.com/uc?id=1tYcYHgKJRkZCdEfOdHCl_bJoX8QoE2RT" alt="Filter" class="img-fluid"/>
-             </div>
-             <div class="instruct-text">
-               <h1>Step 8: See Your SVG Changes</h1>
-               <p>After applying the CSS filter to the SVG class, the SVG element changes to the desired color you want</p>
-             </div>
-           </div>
-         </div>
-       </div>
-      </div>
-    </div><br>
-    <div class="row" >
-       <div class="col-sm-12 col-md-10 offset-md-1">
-        <p>CSS Filter is a powerful tool that developer & designers can use to achieve varying visual effects (sort of like Photoshop filters for the browser). The CSS filter property for me came as an alternative of changing SVG elements on hover and on selected or checked, without changing the SVG element </p>
-       </div>
-     </div>
-   </div>
- </section>
-<hr>
- <section class="last-section">
-   <div class="container">
-     <div class="row">
-       <div class="col-md-12 text-center">
-         <h1>Follow Me</h1>
-         <h2><a href="https://www.facebook.com/echilaka1/"><i class="fa fa-facebook"></i></a>&nbsp; &nbsp; <a href="https://www.instagram.com/echilaka1/"><i class="fa fa-instagram"></i></a>&nbsp; &nbsp; <a href="https://www.linkedin.com/in/echilaka1/"><i class="fa fa-linkedin"></i></a>&nbsp; &nbsp; <a href="https://www.twitter.com/echilaka1/"><i class="fa fa-twitter"></i></a>&nbsp; &nbsp; <a href="https://www.github.com/echilaka1/"><i class="fa fa-github"></i></a> </h2>
-       </div>
-     </div>
-   </div>
- </section>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
