@@ -1,39 +1,34 @@
-
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
 
 body {
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: "Press Start 2P", sans-serif;
   -webkit-font-smoothing: antialiased;
   background-color: #111011;
-  color:white;
+  color: white;
   margin: 0;
 }
 
 a {
-    text-decoration: none;
-    color:lime;
+  text-decoration: none;
+  color: lime;
 }
 
 a:hover {
-    color:lime;
-}
-
-.nes-container {
-    border-color:white !important;
+  color: lime;
 }
 
 #nescss > .container {
-    max-width: 980px;
-    margin: 0 auto;
-    margin-top: 100px;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 100px;
 }
 
 .about h1 {
-    font-size:25px;
+  font-size: 25px;
 }
 
 .about .content {
-    max-width:617px;
+  max-width: 617px;
 }
 
 .about .content p {
@@ -41,60 +36,51 @@ a:hover {
   font-size: 14px;
 }
 
-.about .content p span{
-    color:lime;
+.about .content p span {
+  color: lime;
 }
 
-footer .nes-container .container-nav {
-    display: flex;
-    margin: 0 auto;
-    align-items: baseline;
-  }
-  
-footer .nes-container .container-nav .nav-brand {
-    margin-right: auto;
+footer .container-nav {
+  margin: 0 auto;
+  align-items: baseline;
 }
 
-footer .nes-container .container-nav .nav-brand h1 {
-    font-size:10px;
+footer .container-nav .nav-brand {
+  margin-right: auto;
 }
 
-footer .nes-container .container-nav .nav-brand p {
-    font-size:18px;
+footer .container-nav .nav-brand h1 {
+  font-size: 10px;
 }
 
-footer .nes-container .container-nav .nav-brand a {
-    text-decoration: none;
+footer .container-nav .nav-brand p {
+  font-size: 14px;
 }
 
-footer .nes-container .container-nav .social-buttons {
-    margin-left: auto;
+footer .container-nav .nav-brand a {
+  text-decoration: none;
 }
 
-footer .nes-container .container-nav .nav-brand h2 {
-    font-size:8px;
+footer .container-nav .social-buttons {
+  margin-left: auto;
 }
 
-footer .nes-container .container-nav .social-buttons .share {
-    text-align:center;
-    /* margin-top:5px; */
+footer .container-nav .nav-brand h2 {
+  font-size: 10px;
+}
+
+footer .container-nav .social-buttons .share {
+  text-align: center;
+  /* margin-top:5px; */
 }
 
 @media screen and (max-width: 768px) {
-    body {
-      margin: 2rem 2rem;
-      padding: 0;
-    }
+  body {
+    margin: 2rem 2rem;
+    padding: 0;
+  }
 
-    #nescss > .container {
-        margin-top: 50px;
-    }
-
-    footer .nes-container .container-nav {
-        display: block;
-    }
-
-    footer .nes-container .container-nav .social-buttons .share {
-        text-align:left;
-    }
+  #nescss > .container {
+    margin-top: 50px;
+  }
 }
